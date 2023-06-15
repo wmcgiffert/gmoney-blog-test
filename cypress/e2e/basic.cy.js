@@ -4,6 +4,7 @@ describe('sample render test', () => {
   });
 
   it('displays the title text', () => {
-    cy.get('h1').contains('Next.js Blog Theme');
+    // just need to check that cy.get('h1') contains any text
+    cy.get('h1').contains('GMoney Takes');
   });
 });
